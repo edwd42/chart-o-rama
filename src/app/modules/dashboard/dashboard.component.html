@@ -19,6 +19,62 @@
 
 <!-- <br /><mat-divider></mat-divider><br /> -->
 
+<div
+  fxLayout="row"
+  fxLayoutAlign="space-between center"
+  fxLayoutGap="20px"
+  class="stats-cards"
+>
+  <mat-card fxFlex="25" class="center">
+    <iframe
+      src="http://127.0.0.1:8080/volts.html"
+      width="100%"
+      height="140"
+      frameborder="0"
+      style="border:0;"
+      allowfullscreen=""
+      scrolling="no"
+      class="center"
+    ></iframe>
+  </mat-card>
+  <mat-card fxFlex="25" class="center">
+    <iframe
+      src="http://127.0.0.1:8080/watts.html"
+      width="100%"
+      height="140"
+      frameborder="0"
+      style="border:0;"
+      allowfullscreen=""
+      scrolling="no"
+      class="center"
+    ></iframe>
+  </mat-card>
+  <mat-card fxFlex="25" class="center">
+    <iframe
+      src="http://127.0.0.1:8080/amps.html"
+      width="100%"
+      height="140"
+      frameborder="0"
+      style="border:0;"
+      allowfullscreen=""
+      scrolling="no"
+      class="center"
+    ></iframe>
+  </mat-card>
+  <mat-card fxFlex="25" class="center">
+    <iframe
+      src="http://127.0.0.1:8080/ohms.html"
+      width="100%"
+      height="140"
+      frameborder="0"
+      style="border:0;"
+      allowfullscreen=""
+      scrolling="no"
+      class="center"
+    ></iframe>
+  </mat-card>
+</div>
+
 <div>
   <app-widget-area [data]="bigChart"></app-widget-area>
 </div>
@@ -80,6 +136,8 @@
     </a>
   </mat-card>
 </div>
+
+<br /><mat-divider></mat-divider><br />
 
 <!-- <br /><mat-divider></mat-divider><br /> -->
 
