@@ -33,6 +33,7 @@ import { ExternalLinkDirective } from "./external-link.directive";
 import { MaterialModule } from "./material/material.module";
 import { AreaComponent } from "./widgets/area/area.component";
 import { CardComponent } from "./widgets/card/card.component";
+import { EnegyPriorityComponent } from "./widgets/enegy-priority/enegy-priority.component";
 import { KwhSimComponent } from "./widgets/kwh-sim/kwh-sim.component";
 import { LeafletLayersComponent } from "./widgets/leaflet-layers/leaflet-layers.component";
 import { OptimizeWidgetComponent } from "./widgets/optimize-widget/optimize-widget.component";
@@ -41,7 +42,6 @@ import { Plotly144Component } from "./widgets/plotly144/plotly144.component";
 import { ProvStreetlightsComponent } from "./widgets/prov-streetlights/prov-streetlights.component";
 import { Pyplot1Component } from "./widgets/pyplot1/pyplot1.component";
 import { SurfacePlotComponent } from "./widgets/surface-plot/surface-plot.component";
-import { EnegyPriorityComponent } from './widgets/enegy-priority/enegy-priority.component';
 
 @NgModule({
   declarations: [
@@ -92,7 +92,8 @@ import { EnegyPriorityComponent } from './widgets/enegy-priority/enegy-priority.
     SimulationComponent,
     OptimizationComponent,
     OptimizeWidgetComponent,
-    CardComponent
+    CardComponent,
+    EnegyPriorityComponent
   ]
 })
 export class SharedModule {

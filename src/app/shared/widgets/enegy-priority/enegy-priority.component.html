@@ -1,1 +1,76 @@
-<p>enegy-priority works!</p>
+<div>
+  <h1 style="text-align: center;">
+    Energy Priority Chart
+  </h1>
+  <p>
+    Hello! This page is a chart I made on the Providence Open Data Portal. It is
+    a Socrata chart loaded in an iframe. I can't believe how incredibly easy it
+    is to embed a chart into an Angular app. I've got to do more of these! Stay
+    tuned, and come back soon!
+    <br />
+    Please note: if this page appears blank, it is because Socrata.com requies
+    an app token and is expired.
+  </p>
+  <div id="content" class="flex-container" flexLayout="row">
+    <iframe
+      src="assets/data/energy-priority.html"
+      width="100%"
+      height="600"
+      style="border:0; padding: 0; margin: 0;"
+    ></iframe>
+  </div>
+</div>
+
+<!-- <a
+  class="socrata-visualization-embed"
+  data-embed-version="1"
+  data-height="600"
+  data-vif='{"configuration":{"viewSourceDataLink":true,"showOtherCategory":true,"showValueLabelsAsPercent":true,"showDataTableControl":true,"showValueLabels":false},"series":[{"color":{"secondary":"#71abd9","highlight":"#cccccc","palette":"categorical2","primary":"#71abd9"},"showLegend":true,"type":"pieChart","dataSource":{"measure":{"aggregationFunction":"count"},"limit":6,"orderBy":{"parameter":"measure","sort":"asc"},"type":"socrata.soql","datasetUid":"asrn-ynzu","dimension":{"columnName":"priority_action","aggregationFunction":null},"filters":[],"domain":"data.providenceri.gov"},"label":null}],"origin":{"type":"visualization_canvas","url":"https://data.providenceri.gov/d/qxw7-n7dp"},"format":{"type":"visualization_interchange_format","version":3},"description":"","id":"1af3744e-9b6f-446d-8f2a-df6ec8e253c9","title":""}'
+  data-width="800"
+  href="https://data.providenceri.gov/Public-Safety/Energy-High-Priority-Actions/asrn-ynzu?referrer=embed"
+  rel="external"
+  target="_blank"
+  >View the data</a
+> -->
+
+<!--     <iframe
+      src="https://data.providenceri.gov/Public-Safety/Energy-High-Priority-Actions/asrn-ynzu?referrer=embed"
+      width="100%"
+      height="600"
+      style="border:0; padding: 0; margin: 0;"
+    ></iframe>
+   -->
+
+<!--     <iframe
+      width="500px"
+      title="Energy High Priority Actions"
+      height="425px"
+      src="https://data.providenceri.gov/w/asrn-ynzu/fdfj-bw3f?cur=L6rfekeFbA0&from=root"
+      frameborder="0"
+      scrolling="no"
+      ><a
+        href="https://data.providenceri.gov/Public-Safety/Energy-High-Priority-Actions/asrn-ynzu"
+        title="Energy High Priority Actions"
+        target="_blank"
+        >Energy High Priority Actions</a
+      ></iframe
+    > -->
+
+<!--  <script
+      type="text/javascript"
+      charset="UTF-8"
+      data-locale="en"
+      data-socrata-domain="data.providenceri.gov"
+      src="https://data.providenceri.gov/component/visualization/v1/socrata-visualizations-loader.js"
+    ></script>
+    <a
+      class="socrata-visualization-embed"
+      data-embed-version="1"
+      data-height="600"
+      data-vif='{"configuration":{"viewSourceDataLink":true,"showOtherCategory":true,"showValueLabelsAsPercent":true,"showDataTableControl":true,"showValueLabels":false},"series":[{"color":{"secondary":"#71abd9","highlight":"#cccccc","palette":"categorical2","primary":"#71abd9"},"showLegend":true,"type":"pieChart","dataSource":{"measure":{"aggregationFunction":"count"},"limit":6,"orderBy":{"parameter":"measure","sort":"asc"},"type":"socrata.soql","datasetUid":"asrn-ynzu","dimension":{"columnName":"priority_action","aggregationFunction":null},"filters":[],"domain":"data.providenceri.gov"},"label":null}],"origin":{"type":"visualization_canvas","url":"https://data.providenceri.gov/d/qxw7-n7dp"},"format":{"type":"visualization_interchange_format","version":3},"description":"","id":"1af3744e-9b6f-446d-8f2a-df6ec8e253c9","title":""}'
+      data-width="800"
+      href="https://data.providenceri.gov/Public-Safety/Energy-High-Priority-Actions/asrn-ynzu?referrer=embed"
+      rel="external"
+      target="_blank"
+      >View the data</a
+    > -->
