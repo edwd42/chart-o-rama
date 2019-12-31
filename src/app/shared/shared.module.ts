@@ -41,6 +41,7 @@ import { Plotly144Component } from "./widgets/plotly144/plotly144.component";
 import { ProvStreetlightsComponent } from "./widgets/prov-streetlights/prov-streetlights.component";
 import { Pyplot1Component } from "./widgets/pyplot1/pyplot1.component";
 import { SurfacePlotComponent } from "./widgets/surface-plot/surface-plot.component";
+import { EnegyPriorityComponent } from './widgets/enegy-priority/enegy-priority.component';
 
 @NgModule({
   declarations: [
@@ -62,7 +63,8 @@ import { SurfacePlotComponent } from "./widgets/surface-plot/surface-plot.compon
     KwhSimComponent,
     OptimizeWidgetComponent,
     CardComponent,
-    SurfacePlotComponent
+    SurfacePlotComponent,
+    EnegyPriorityComponent
   ],
   imports: [
     CommonModule,
