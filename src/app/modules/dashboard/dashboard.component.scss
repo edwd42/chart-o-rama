@@ -1,5 +1,7 @@
 .stats-cards {
   .mat-card {
+    height: 180px;
+
     overflow: hidden;
   }
 }
@@ -17,10 +19,29 @@ a:visited {
 }
 
 .center {
-  margin: auto;
-  // width: 99%;
+  margin: 10px auto;
+  // margin: 10px;
+  text-align: center;
+}
+
+.gauges {
+  margin: 10px auto;
+  // margin: 10px;
+  text-align: center;
+}
+
+.energy-pie {
+  // margin: 10px auto;
+  // border: 2px green solid;
+  margin: -30px 0px 0px -20px;
+  // margin-top: -66px;
+  // margin-bottom: 1px;
+  // padding: 0px 0px 0px 20px;
+  // width: 333px;
+  // height: 100%;
   // border: 1px solid green;
   // padding: 10px;
-  margin: 10px;
+  // padding-top: -40px;
+  // padding-bottom: 40px;
   text-align: center;
 }

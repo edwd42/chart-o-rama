@@ -7,6 +7,7 @@ import { PageNotFoundComponent } from "./modules/page-not-found/page-not-found.c
 import { OptimizationComponent } from "./shared/components/optimization/optimization.component";
 import { SimulationComponent } from "./shared/components/simulation/simulation.component";
 import { VisualizationComponent } from "./shared/components/visualization/visualization.component";
+import { EnegyPriorityComponent } from "./shared/widgets/enegy-priority/enegy-priority.component";
 import { KwhSimComponent } from "./shared/widgets/kwh-sim/kwh-sim.component";
 import { LeafletLayersComponent } from "./shared/widgets/leaflet-layers/leaflet-layers.component";
 import { OptimizeWidgetComponent } from "./shared/widgets/optimize-widget/optimize-widget.component";
@@ -33,6 +34,8 @@ const routes: Routes = [
       { path: "prov-streetlights", component: ProvStreetlightsComponent },
       { path: "plotly144", component: Plotly144Component },
       { path: "pyplot1", component: Pyplot1Component },
+      { path: "energy", component: EnegyPriorityComponent },
+
       { path: "kwh-sim", component: KwhSimComponent },
       { path: "optimize-widget", component: OptimizeWidgetComponent },
       { path: "leaflet-layers", component: LeafletLayersComponent },

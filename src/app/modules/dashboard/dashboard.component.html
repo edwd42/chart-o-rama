@@ -1,43 +1,26 @@
 <h1 style="text-align: center;">Chart-O-Rama Dashboard</h1>
 
-<!-- <div id="prov-streetlights" style="width: 100%; height: 600px; display: block;">
-  <app-widget-prov-streetlights
-    [data]="provStreetlights"
-  ></app-widget-prov-streetlights>
-</div> -->
-
-<!-- <br /><mat-divider></mat-divider><br /> -->
-
-<!-- <h1 style="text-align: center;">Simulation</h1>
-<div id="simulation" style="width: 100%; height: 600px; display: block;">
-  <app-widget-simulation [data]="provStreetlights"></app-widget-simulation>
-</div>
-
-<br /><mat-divider></mat-divider><br /> -->
-
-<!-- <app-widget-optimization></app-widget-optimization> -->
-
-<!-- <br /><mat-divider></mat-divider><br /> -->
-
 <div
   fxLayout="row"
   fxLayoutAlign="space-between center"
   fxLayoutGap="20px"
   class="stats-cards"
 >
-  <mat-card fxFlex="25" class="center">
-    <iframe
-      src="http://127.0.0.1:8080/volts.html"
-      width="100%"
-      height="140"
-      frameborder="0"
-      style="border:0;"
-      allowfullscreen=""
-      scrolling="no"
-      class="center"
-    ></iframe>
+  <mat-card fxFlex="50" class="center">
+    <div class="gauges">
+      <iframe
+        src="http://127.0.0.1:8080/index.html"
+        width="100%"
+        height="140"
+        frameborder="0"
+        style="border:0;"
+        allowfullscreen=""
+        scrolling="no"
+        class="center"
+      ></iframe>
+    </div>
   </mat-card>
-  <mat-card fxFlex="25" class="center">
+  <!-- <mat-card fxFlex="25" class="center">
     <iframe
       src="http://127.0.0.1:8080/watts.html"
       width="100%"
@@ -48,8 +31,8 @@
       scrolling="no"
       class="center"
     ></iframe>
-  </mat-card>
-  <mat-card fxFlex="25" class="center">
+  </mat-card> -->
+  <!-- <mat-card fxFlex="25" class="center">
     <iframe
       src="http://127.0.0.1:8080/amps.html"
       width="100%"
@@ -60,18 +43,20 @@
       scrolling="no"
       class="center"
     ></iframe>
-  </mat-card>
-  <mat-card fxFlex="25" class="center">
-    <iframe
-      src="http://127.0.0.1:8080/ohms.html"
-      width="100%"
-      height="140"
-      frameborder="0"
-      style="border:0;"
-      allowfullscreen=""
-      scrolling="no"
-      class="center"
-    ></iframe>
+  </mat-card> -->
+  <mat-card fxFlex="50">
+    <div class="energy-pie">
+      <iframe
+        src="assets/data/energy-pie-chart.html"
+        width="100%"
+        height="140"
+        frameborder="0"
+        style="border:0;"
+        allowfullscreen=""
+        scrolling="no"
+        class="center"
+      ></iframe>
+    </div>
   </mat-card>
 </div>
 
