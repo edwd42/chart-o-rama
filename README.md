@@ -1,12 +1,12 @@
-# [GridHub](https://gridhub-qefex.mongodbstitch.com)
+# [Chart-O-Rama](http://chart-o-rama-stage1.s3-website.us-east-2.amazonaws.com/)
 
-Scope and purpose of this web app is to demonstrate my ability to create a full stack web app with Angular, Node.js, Express and MongoDB. My audience for this project is potential employers. This app, GridHub, is intended to turn heads and get me an interview.
+Scope and purpose of this web app is to demonstrate my ability to create a full stack web app with Angular, Node.js, Express and MongoDB. My audience for this project is potential employers. This app, Chart-O-Rama, is intended to turn heads and get me an interview.
 
 First thing I needed to do was learn Angular all over again. I did a couple of MEAN stack tutorials about 2 years ago, so I am basically starting over at square 1. However, I do have a much better comprehension of ES6 than I did back then.
 
 The first video tutorial I followed was [Reusable Layout Templates Using Angular Routing and Flex-layout Flexbox](https://www.youtube.com/watch?v=U4ftsqSt81w). Many thanks to the author code-academia, I found that video easy to understand and well articulated.
 
-Having finished the layout part, I proceeded to host my app on [MongoDB-Stitch](https://gridhub-qefex.mongodbstitch.com/), which offers free hosting, free MongoDB, and other sweet features like secure login, lambda functions, triggers, webhooks and GitHub integration.
+Having finished the layout part, I proceeded to host my app on [MongoDB-Stitch](grid-hub-ufmtz.mongodbstitch.com), which offers free hosting, free MongoDB, and other sweet features like secure login, lambda functions, triggers, webhooks and GitHub integration. Please note: if you get a message similar to "Hmm. We’re having trouble finding that site. We can’t connect to the server at grid-hub-ufmtz.mongodbstitch.com." -- it may mean that this is an old app and no longer hosted on MongoDB-Stitch. Sorry about that.
 
 The next video tutorial I followed was [Angular 8 Tutorial](https://www.youtube.com/watch?v=0eWrpsCLMJQ&list=PLC3y8-rFHvwhBRAgFinJR8KHIrCdTkZcZ) by Codevolution. Again, many thanks to the author.
 
@@ -14,7 +14,7 @@ Now that I have the layout and routing set up, I need to pull in some data with 
 
 Another challenge I ran into was Content Security Policy (CSP), which prevents the page from loading data after hitting the API. So I rolled back to my last known good commit and trying again, this time with CSP-aware diligence.
 
-I was able to overcome the CSP issues with the help of this [REST API Tutorial]REST API](https://www.djamware.com/post/5d8d7fc10daa6c77eed3b2f2/angular-8-tutorial-rest-api-and-httpclient-examples#setup-angular-httpclient). I am always greatful to the many authors out there that help me out of a difficult challenge.
+I was able to overcome the CSP issues with the help of this [REST API Tutorial]REST API](https://www.djamware.com/post/5d8d7fc10daa6c77eed3b2f2/angular-8-tutorial-rest-api-and-httpclient-examples#setup-angular-httpclient). I am always greatful to the many authors out there that help me out of a difficult spot.
 
 Add chart.js - It's easy to get started with Chart.js. All that's required is the script included in your page along with a single <canvas> node to render the chart.
 
