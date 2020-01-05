@@ -12,6 +12,7 @@ import { KwhSimComponent } from "./shared/widgets/kwh-sim/kwh-sim.component";
 import { LeafletLayersComponent } from "./shared/widgets/leaflet-layers/leaflet-layers.component";
 import { OptimizeWidgetComponent } from "./shared/widgets/optimize-widget/optimize-widget.component";
 import { Plotly144Component } from "./shared/widgets/plotly144/plotly144.component";
+import { Powerbi0Component } from "./shared/widgets/powerbi0/powerbi0.component";
 import { ProvStreetlightsComponent } from "./shared/widgets/prov-streetlights/prov-streetlights.component";
 import { Pyplot1Component } from "./shared/widgets/pyplot1/pyplot1.component";
 
@@ -35,6 +36,7 @@ const routes: Routes = [
       { path: "plotly144", component: Plotly144Component },
       { path: "pyplot1", component: Pyplot1Component },
       { path: "energy", component: EnegyPriorityComponent },
+      { path: "powerbi0", component: Powerbi0Component },
 
       { path: "kwh-sim", component: KwhSimComponent },
       { path: "optimize-widget", component: OptimizeWidgetComponent },
